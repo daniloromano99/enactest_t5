@@ -1,0 +1,227 @@
+.choose_robot-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.choose_robot-choose_robot {
+  width: 1920px;
+  height: 1080px;
+  zoom: 77.2%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background: url(./images/shader2.png);
+  backdrop-filter: blur(5px) ; 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center center;    
+  overflow-y: hidden; 
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  position: fixed;
+}
+.choose_robot-background {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  backdrop-filter: blur(5px) ; 
+}
+.choose_robot-shader {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.choose_robot-main {
+  top: 45px;
+  left: 635px;
+  width: 650px;
+  height: 980px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.choose_robot-frame {
+  top: 0px;
+  left: 0px;
+  width: 650px;
+  height: 800px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(85, 85, 85, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+}
+
+.choose_robot-text {
+  top: 392px;
+  left: 62px;
+  color: rgba(179, 151, 79, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+.choose_robot-buttons {
+  top: 838px;
+  left: 65px;
+  width: 520px;
+  height: 142px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.choose_robot-button {
+  top: 81px;
+  left: 0px;
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(55, 55, 55, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+
+
+.choose_robot-frame1 {
+  top: 365px;
+  left: 632px;
+  width: 650px;
+  height: 350px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(55, 55, 55, 1);;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+}
+.choose_robot-button5 {
+  top: 631px;
+  left: 821px;
+  width: 136px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(55, 55, 55, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.choose_robot-button6 {
+  top: 442px;
+  left: 744px;
+  width: 425px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(55, 55, 55, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.choose_robot-button7 {
+  top: 522px;
+  left: 744px;
+  width: 425px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(221, 221, 221, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.choose_robot-button8 {
+  top: 631px;
+  left: 975px;
+  width: 136px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(55, 55, 55, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+.choose_robot-text22 {
+  top: 647px;
+  left: 852px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.choose_robot-text24 {
+  top: 457px;
+  left: 914px;
+  color: rgba(255, 255, 255, 1);
+  width: 152px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.choose_robot-text26 {
+  top: 540px;
+  left: 914px;
+  color: rgba(255, 255, 255, 1);
+  width: 126px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.choose_robot-text28 {
+  top: 647px;
+  left: 1007px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

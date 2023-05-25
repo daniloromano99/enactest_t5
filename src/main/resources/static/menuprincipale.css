@@ -1,29 +1,44 @@
 .menuprincipale-container {
     width: 100%;
+    height: 100%;
     display: flex;
     overflow: auto;
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 1900px;
   }
+  
+
+
   .menuprincipale-menuprincipale {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
+    zoom: 77.2%;
     display: flex;
     overflow: hidden;
     position: relative;
     align-items: flex-start;
     flex-shrink: 0;
-    background: url(shader.png);
-    background-size: cover;
-    background-color: rgba(255, 255, 255, 1);
+    background: url(./images/shader.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;    
+    overflow-y: hidden; 
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    position: fixed;
   }
+    
+
+ 
   .menuprincipale-shader {
     top: 0px;
     left: 0px;
     width: 1920px;
     height: 1080px;
-    background: url(shader.png);
     position: absolute;
   }
   .menuprincipale-buttons {
@@ -55,7 +70,7 @@
     height: 60px;
     position: absolute;
     box-sizing: content-box;
-    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(55, 55, 55, 1);
     border-style: solid;
     border-width: 1px;
     border-radius: 16px;
@@ -104,13 +119,13 @@
 
  
   .menuprincipale-buttonexit {
-    top: 0px;
+    top: -250px;
     left: 90px;
     width: 50px;
     height: 60px;
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
-    background: url(ButtonExit.png);
+    background: url(images/ButtonExit.png);
     background-size: contain;
   }
 
