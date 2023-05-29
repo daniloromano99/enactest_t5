@@ -61,7 +61,7 @@
   height: 80px;
   position: absolute;
   box-sizing: content-box;
-  border-color: rgba(85, 85, 85, 1);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
@@ -353,4 +353,25 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+.choose_class-lowerbuttons {
+  top: 969px;
+  left: 850px;
+  width: 220px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.choose_class-buttonexit {
+  top: -250px;
+  left: 90px;
+  width: 50px;
+  height: 60px;
+  position: relative;
+  box-sizing: content-box;
+  background: url(images/ButtonExit.png);
+  background-size: contain;
 }

@@ -32,6 +32,10 @@ public class EnactestT5Controller {
 
     //choose difficulty eventuale
 
-
+    @GetMapping("/edit")
+    public String ambientediediting(Model Model)
+    {
+        return "ambientediediting";
+    }
     
 }
