@@ -55,7 +55,7 @@
   border-radius: 16px;
 }
 .ambientediediting-text {
-  top: 37px;
+  top: 45px;
   left: 398.23760986328125px;
   color: rgba(255, 255, 255, 1);
   width: 749px;
@@ -70,24 +70,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.ambientediediting-button1 {
-  top: 111px;
-  left: 124.84256744384766px;
-  width: 1224px;
-  height: 643px;
-  position: absolute;
-  border-color: rgba(55, 55, 55, 1);
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
-}
+
 .ambientediediting-button2 {
   top: 835px;
   left: 1070px;
   width: 150px;
   height: 60px;
   position: absolute;
-  border-color: rgba(143, 143, 143, 1);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 2px;
   border-radius: 16px;
@@ -113,14 +103,14 @@
   width: 150px;
   height: 60px;
   position: absolute;
-  border-color: rgba(55, 55, 55, 1);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 2px;
   border-radius: 16px;
 }
 .ambientediediting-text04 {
   top: 851px;
-  left: 735px;
+  left: 745px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -154,7 +144,7 @@
   width: 150px;
   height: 60px;
   position: absolute;
-  border-color: rgba(143, 143, 143, 1);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 2px;
   border-radius: 16px;
@@ -177,7 +167,7 @@
 .ambientediediting-text09 {
   top: 222px;
   left: 384px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   width: 424px;
   height: auto;
   position: absolute;
