@@ -63,7 +63,7 @@
   height: 800px;
   position: absolute;
   box-sizing: content-box;
-  border-color: rgba(85, 85, 85, 1);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-radius: 24px;
@@ -102,7 +102,7 @@
   width: 150px;
   height: 60px;
   position: absolute;
-  border-color: rgba(55, 55, 55, 1);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
@@ -116,35 +116,35 @@
   height: 800px;
   position: absolute;
   box-sizing: content-box;
-  border-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
   border-style: solid;
   border-width: 2px;
   border-radius: 24px;
 }
-.choose_robot-button5 {
+.choose_robot-buttonchoose {
   top: 631px;
   left: 821px;
   width: 136px;
   height: 60px;
   position: absolute;
-  border-color: rgba(55, 55, 55, 1);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
 }
-.choose_robot-button6 {
-  top: 442px;
+.choose_robot-buttonrandoop {
+  top: 465px;
   left: 744px;
   width: 425px;
   height: 60px;
   position: absolute;
-  border-color: rgba(55, 55, 55, 1);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
 }
-.choose_robot-button7 {
-  top: 522px;
+.choose_robot-buttonevosuite {
+  top: 545px;
   left: 744px;
   width: 425px;
   height: 60px;
@@ -154,18 +154,18 @@
   border-width: 1px;
   border-radius: 10px;
 }
-.choose_robot-button8 {
+.choose_robot-buttoncancel {
   top: 631px;
   left: 975px;
   width: 136px;
   height: 60px;
   position: absolute;
-  border-color: rgba(55, 55, 55, 1);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;
 }
-.choose_robot-text22 {
+.choose_robot-textchoose {
   top: 647px;
   left: 852px;
   color: rgba(255, 255, 255, 1);
@@ -180,8 +180,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.choose_robot-text24 {
-  top: 457px;
+.choose_robot-textrandoop {
+  top: 480px;
   left: 914px;
   color: rgba(255, 255, 255, 1);
   width: 152px;
@@ -196,8 +196,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.choose_robot-text26 {
-  top: 540px;
+.choose_robot-textevosuite {
+  top: 563px;
   left: 914px;
   color: rgba(255, 255, 255, 1);
   width: 126px;
@@ -212,7 +212,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.choose_robot-text28 {
+.choose_robot-textcancel {
   top: 647px;
   left: 1007px;
   color: rgba(255, 255, 255, 1);
@@ -229,15 +229,15 @@
 }
 
 .choose_robot-casellacont {
-  top: 570px;
-  left: 910px;
-  width: 625px;
-  border-radius: 7.5px;
+  top: 568px;
+  left: 917px;
+  width: 800px;
+  border-radius: 8px;
   background: url(./images/frame1173-5w7r-400h.png);
   background-repeat: no-repeat;
-  position:absolute;
+  position:relative;
   align-items: flex-start;
   padding: 1000px; 
- 
+  border-color: white;
   height: 1100px;  
 }
