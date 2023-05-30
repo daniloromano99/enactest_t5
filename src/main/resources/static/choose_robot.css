@@ -227,3 +227,17 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+.choose_robot-casellacont {
+  top: 570px;
+  left: 910px;
+  width: 625px;
+  border-radius: 7.5px;
+  background: url(./images/frame1173-5w7r-400h.png);
+  background-repeat: no-repeat;
+  position:absolute;
+  align-items: flex-start;
+  padding: 1000px; 
+ 
+  height: 1100px;  
+}

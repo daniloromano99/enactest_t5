@@ -1,4 +1,4 @@
-.component1-container {
+.ambientediediting-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,22 +6,33 @@
   align-items: center;
   flex-direction: column;
 }
-.component1-component1 {
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
+.ambientediediting-ambientediediting {
+ width: 1920px;
+    height: 1080px;
+    zoom: 77.2%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: url(./images/shader.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;    
+    overflow-y: hidden; 
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    position: fixed;
 }
-.component1-shader {
+.ambientediediting-shader {
   top: 0px;
   left: 0px;
   width: 1920px;
   height: 1080px;
   position: absolute;
 }
-.component1-main {
+.ambientediediting-main {
   top: 60px;
   left: 198px;
   width: 1479px;
@@ -32,7 +43,7 @@
   flex-shrink: 1;
   background-color: rgba(29, 29, 29, 0.20000000298023224);
 }
-.component1-button {
+.ambientediediting-button {
   top: 26px;
   left: 340.2602844238281px;
   width: 755px;
@@ -43,7 +54,7 @@
   border-width: 2px;
   border-radius: 16px;
 }
-.component1-text {
+.ambientediediting-text {
   top: 37px;
   left: 398.23760986328125px;
   color: rgba(255, 255, 255, 1);
@@ -59,7 +70,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.component1-button1 {
+.ambientediediting-button1 {
   top: 111px;
   left: 124.84256744384766px;
   width: 1224px;
@@ -68,10 +79,10 @@
   border-color: rgba(55, 55, 55, 1);
   border-style: solid;
   border-width: 2px;
-  border-radius: 16px;
+  border-radius: 5px;
 }
-.component1-button2 {
-  top: 964px;
+.ambientediediting-button2 {
+  top: 835px;
   left: 1070px;
   width: 150px;
   height: 60px;
@@ -81,8 +92,8 @@
   border-width: 2px;
   border-radius: 16px;
 }
-.component1-text02 {
-  top: 980px;
+.ambientediediting-text02 {
+  top: 851px;
   left: 1119px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -96,8 +107,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.component1-button3 {
-  top: 965px;
+.ambientediediting-button3 {
+  top: 835px;
   left: 885px;
   width: 150px;
   height: 60px;
@@ -107,8 +118,8 @@
   border-width: 2px;
   border-radius: 16px;
 }
-.component1-text04 {
-  top: 981px;
+.ambientediediting-text04 {
+  top: 851px;
   left: 735px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -122,9 +133,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.component1-text06 {
-  top: 981px;
-  left: 916px;
+.ambientediediting-text06 {
+  top: 851px;
+  left: 935px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -137,8 +148,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.component1-button4 {
-  top: 965px;
+.ambientediediting-button4 {
+  top: 835px;
   left: 699px;
   width: 150px;
   height: 60px;
@@ -148,7 +159,7 @@
   border-width: 2px;
   border-radius: 16px;
 }
-.component1-text08 {
+.ambientediediting-text08 {
   top: 983px;
   left: 748px;
   color: rgba(174, 174, 174, 1);
@@ -163,7 +174,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.component1-text09 {
+.ambientediediting-text09 {
   top: 222px;
   left: 384px;
   color: rgba(255, 255, 255, 1);
@@ -179,3 +190,4 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
