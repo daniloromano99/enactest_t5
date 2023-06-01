@@ -92,7 +92,7 @@
     text-decoration: none;
   }
   .menuprincipale-text2 {
-    top: 96px;
+    top: 16px;
     left: 172px;
     color: rgba(225, 225, 225, 1);
     height: auto;
@@ -144,5 +144,12 @@
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
+  }
+  .pressione:hover {
+
+    background-color: #5a03be;
+  
+    color: white;
+  
   }
   
