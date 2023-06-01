@@ -7,8 +7,8 @@
   flex-direction: column;
 }
 .ambientediediting-ambientediediting {
- width: 1920px;
-    height: 1080px;
+ width: 100%;
+    height: 100%;
     zoom: 77.2%;
     display: flex;
     overflow: hidden;
