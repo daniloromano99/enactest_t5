@@ -38,6 +38,39 @@
       data-tag="font"
     />
     <link rel="stylesheet" href="./style.css" />
+
+    <script>
+      let Randoop =document.getElementById("Randoop");
+      let EVOSUITE=document.getElementById("EVOSUITE");
+      let RandoopPremuto=1;
+      
+      function displayMessage() {
+          if(Randoop.onclick)
+            RandoopPremuto=1;
+         
+       
+      }
+
+      alert("Robot scelto correttamente");
+    </script>
+     
+     <script>
+          let activeButton = null; 
+          function makeButtonActive(buttonId) {
+          let button = document.getElementById(buttonId); 
+          if (button) {
+            if (activeButton) { 
+              activeButton.classList.remove("button-active"); 
+              } 
+              button.classList.add("button-active"); 
+              activeButton = button; 
+              } 
+              }
+    </script>
+
+
+
+
   </head>
   <body>
     <div>
@@ -54,26 +87,31 @@
             <div class="choose_robot-choose_robot">
               <div class="choose_robot-casellacont"></div>
             </div>
-            <button
+            <a id="Randoop"
+              onclick="makeButtonActive('Randoop')"
               src="public/external/button1174-uu1b-200h.png"
               alt="ButtonRandoop"
               class="choose_robot-buttonrandoop pressione"
-            ><p class="choose_robot-textrandoop">RANDOOP</p></button>
-            <button
+            ><p class="choose_robot-textrandoop">RANDOOP</p></a>
+            <a id="EVOSUITE"
+              onclick="makeButtonActive('EVOSUITE')"
               src="public/external/button1175-w7qt-200h.png"
               alt="ButtonEvosuite"
               class="choose_robot-buttonevosuite pressione"
-            ><p class="choose_robot-textevosuite">EVOSUITE</p></button>
-            <button
+            ><p class="choose_robot-textevosuite">EVOSUITE</p></a>
+            <a onclick="displayMessage()"
               src="public/external/button1176-60cl-200h.png"
               alt="ButtonChoose"
               class="choose_robot-buttonchoose pressione"
-            ><p class="choose_robot-textchoose">CHOOSE</p></button>
-            <button
+              href="mainmenu"
+              
+            ><p class="choose_robot-textchoose">CHOOSE</p></a>
+            <a
               src="public/external/button1177-n1jd-200h.png"
               alt="ButtonCancel"
               class="choose_robot-buttoncancel pressione"
-            ><p class="choose_robot-textcancel">BACK</p></button>
+              href="mainmenu"
+            ><p class="choose_robot-textcancel">BACK</p></a>
           </div>
         </div>
       </div>

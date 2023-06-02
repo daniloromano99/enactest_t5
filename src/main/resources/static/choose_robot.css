@@ -246,3 +246,13 @@
   background-color: #5a03be;
   color: white;
 }
+
+.button-active {  
+  opacity:0.7;
+  border-width: 4px;
+  border-color: rgb(60, 24, 157);
+  background-color: #0d023c;
+  color:white;
+  } 
+  
+  #message { display: none; }
