@@ -83,8 +83,8 @@
   border-radius: 16px;
 }
 .ambientediediting-text02 {
-  top: 851px;
-  left: 1119px;
+  top: 15px;
+  left: 40px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -109,8 +109,8 @@
   border-radius: 16px;
 }
 .ambientediediting-text04 {
-  top: 851px;
-  left: 745px;
+  top: 15px;
+  left: 43px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -124,8 +124,8 @@
   text-decoration: none;
 }
 .ambientediediting-text06 {
-  top: 851px;
-  left: 935px;
+  top: 15px;
+  left: 41px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -181,3 +181,8 @@
   text-decoration: none;
 }
 
+
+.pressione:hover {
+  background-color: #180175;
+  color: white;
+}
