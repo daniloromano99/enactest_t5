@@ -108,7 +108,7 @@
 
   border-style: solid;
 
-  border-width: 2px;
+  border-width: 3px;
 
   border-radius: 24px;
 
@@ -298,9 +298,9 @@
 
 .choose_class-text08 {
 
-  top: 52px;
+  top: 18px;
 
-  left: 62px;
+  left: 15px;
 
   color: rgba(255, 255, 255, 1);
 
@@ -350,9 +350,9 @@
 
 .choose_class-text10 {
 
-  top: 222px;
+  top: 15px;
 
-  left: 62px;
+  left: 28px;
 
   color: rgba(255, 255, 255, 1);
 
@@ -446,9 +446,9 @@
 
 .choose_class-text12 {
 
-  top: 137px;
+  top: 15px;
 
-  left: 62px;
+  left: 46px;
 
   color: rgba(255, 255, 255, 1);
 
@@ -550,9 +550,9 @@
 
 .choose_class-text14 {
 
-  top: 795px;
+  top: 15px;
 
-  left: 739px;
+  left: 40px;
 
   color: rgba(255, 255, 255, 1);
 
@@ -605,7 +605,7 @@
 
 .pressione:hover {
 
-  background-color: #5a03be;
+  background-color: #180175;
 
   color: white;
 
@@ -722,7 +722,6 @@
   font-stretch: normal;
 
   text-decoration: none;
-  cursor: pointer;
 
 }
 
@@ -771,4 +770,12 @@
   background-size: contain;
 
 }*/
+.button-active {  
+opacity:0.7;
+border-width: 4px;
+border-color: rgb(60, 24, 157);
+background-color: #0d023c;
+color:white;
+} 
 
+#message { display: none; }

@@ -59,6 +59,31 @@
 
     </style>
 
+
+  <script>
+    let activeButton = null; 
+    function makeButtonActive(buttonId) {
+     let button = document.getElementById(buttonId); 
+     if (button) {
+       if (activeButton) { 
+        activeButton.classList.remove("button-active"); 
+        } 
+        button.classList.add("button-active"); 
+        activeButton = button; 
+        } 
+        }
+  </script>
+
+<script> 
+function showMessage() { 
+  let message = document.getElementById("message"); 
+  message.textContent = "Selezione avvenuta correttamente"; 
+  message.style.display = "block"; 
+  setTimeout(function() { 
+    message.style.display = "none";
+     }, 4000); }
+</script>
+
     <link
 
       rel="stylesheet"
@@ -138,89 +163,63 @@
 
             ></button>-->
 
-            <button
+            <button id="ButtonC5" onclick="makeButtonActive('ButtonC5')"
 
               src="public/external/button135-ic4e-200h.png"
 
-              alt="ButtonClass5"
+              alt="Button135"
 
               class="choose_class-button pressione"
 
-            ></button>
+            ><p class="choose_class-text08">Class 5</p></button>
 
-            <span class="choose_class-text">
 
-              <span class="choose_class-text01"><a>Class 5</a></span>
-
-            </span>
-
-         
-
-            <a
+            <button id="ButtonC1" onclick="makeButtonActive('ButtonC1')"
 
               src="public/external/button137-4x5b-200h.png"
 
-              alt="ButtonClass1"
+              alt="Button137"
 
               class="choose_class-button1 pressione"
 
-            ></a>
+            ><p class="choose_class-text08">Class 1</p></button>
 
-            <span class="choose_class-text08"><a>Class 1</a></span>
-
-            <button
+            <button id="ButtonC3" onclick="makeButtonActive('ButtonC3')"
 
               src="public/external/button140-7rth-200h.png"
 
-              alt="ButtonClass3"
+              alt="Button140"
 
               class="choose_class-button2 pressione"
 
-            ></button>
+            ><p class="choose_class-text08">Class 3</p></button>
 
-            <span class="choose_class-text10"><a>Class 3</a></span>
-
-            <button
+            <button id="ButtonC4" onclick="makeButtonActive('ButtonC4')"
 
               src="public/external/button142-i8w9-200h.png"
 
-              alt="ButtonClass4"
+              alt="Button142"
 
               class="choose_class-button3 pressione"
 
-            ></button>
+            ><p class="choose_class-text08">Class 4</p></button>
 
          
 
-            <button
+            <button id="ButtonC2" onclick="makeButtonActive('ButtonC2')"
 
               src="public/external/button146-7vlk-200h.png"
 
-              alt="ButtonClass2"
+              alt="Button146"
 
               class="choose_class-button5 pressione"
 
-            ><p class="choose_class-text12">Classe 2</p></button>
-
-
-            <span class="choose_class-text12"><a>Class 2</a></span>
-
-            <!--<span class="choose_class-text12"><span>Class 2</span></span>-->
+            ><p class="choose_class-text08">Class 2</p></button>
 
 
           </div>
 
-         
-         
-          <img
-            id="BottoneVerde"
 
-            src="public/external/ellipse9159-zaf-200h.png"
-
-            alt="BottoneVerde"
-
-            class="choose_class-ellipse9 pressione"
-          >
           <!--<img
 
             src="public/external/ellipse10160-ic5-200h.png"
@@ -241,45 +240,37 @@
 
           />-->
 
-          <button
-
+     <div>
+             <button onclick="showMessage()" 
             src="public/external/button162-mp7i-200h.png"
 
-            alt="ButtonSelect"
+            alt="Button162"
 
             class="choose_class-button6 pressione"
 
-          ></button>
-
-          <span class="choose_class-text14"><a>Select</a></span>
-
-          <a
+          ><p class="choose_class-text14">Select</p></button>
+          <div id="message"></div>
+        </div>
+          <button
 
             src="public/external/button168-05xf-200h.png"
 
-            alt="ButtonBack"
+            alt="Button168"
 
             class="choose_class-button7 pressione"
 
-            href="mainmenu"
-
-          ></a>
-
-          <span class="choose_class-text16"><a href="mainmenu">Back</a></span>
+          ><p class="choose_class-text12">Back</p></button>
 
           <button
 
             src="public/external/button170-70i-200h.png"
 
-            alt="ButtonRandom"
+            alt="Button170"
 
             class="choose_class-button8 pressione"
 
-          ></button>
+          ><p class="choose_class-text10">Random</p></button>
 
-          <span class="choose_class-text18"><a>Random</a></span>
-
-          <span class="choose_class-text20"><a>Class 4</a></span>
 
         </div>
 
