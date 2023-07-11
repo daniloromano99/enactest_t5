@@ -54,7 +54,7 @@ public class matchmodel implements RobotModelInterface,modelinterfaceclass {
     
     public void setmode(String mode)
     {
-        if (mode.equals("singleplayer")) 
+        if (mode.equals("singleplayer"))
             this.mode = "Single Player";
         else if (mode.equals("multiplayer"))
             this.mode = "Multi Player";
