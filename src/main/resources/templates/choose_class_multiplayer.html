@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="english">
+  <head>
+    <title>exported project</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="utf-8" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type='button'],
+      [type='reset'],
+      [type='submit'] button::-moz-focus-inner,
+      [type='button']::-moz-focus-inner,
+      [type='reset']::-moz-focus-inner,
+      [type='submit']::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type='button']:-moz-focus,
+      [type='reset']:-moz-focus,
+      [type='submit']:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+
+        font-style: normal;
+
+        text-decoration: none;
+
+        text-transform: none;
+
+        letter-spacing: normal;
+
+        line-height: 1.15;
+
+        color: var(--dl-color-gray-black);
+
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+
+    <script>
+      let activeButton = null;
+      function makeButtonActive(buttonId) {
+        let button = document.getElementById(buttonId);
+        if (button) {
+          if (activeButton) {
+            activeButton.classList.remove('button-active');
+          }
+          button.classList.add('button-active');
+          activeButton = button;
+        }
+      }
+    </script>
+
+    <script>
+      function showMessage() {
+        alert('Robot scelto correttamente');
+      }
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&amp;display=swap"
+      data-tag="font"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div>
+      <link href="./choose_class.css" rel="stylesheet" />
+
+      <!-- <div class="choose_class-lowerbuttons">
+
+       
+
+        <button
+
+          src="public/playground_assets/ButtonExit.png"
+
+          alt="ButtonExit"
+
+          class="choose_class-buttonexit ">
+
+        ></button>
+
+     
+
+      </div>-->
+
+      <div class="choose_class-container">
+        <div class="choose_class-choose_class">
+          <div class="choose_class-main">
+            <button
+              src="public/external/frame133-1zkv-700w.png"
+              alt="Frame133"
+              class="choose_class-frame"
+            ></button>
+
+            <!--<button
+
+              src="public/external/frame134-0i2s-200h.png"
+
+              alt="Frame134"
+
+              class="choose_class-frame1"
+
+            ></button>-->
+
+            <button
+              id="ButtonC5"
+              onclick="makeButtonActive('ButtonC5')"
+              src="public/external/button135-ic4e-200h.png"
+              alt="Button135"
+              class="choose_class-button pressione"
+            >
+              <p class="choose_class-text08">Class 5</p>
+            </button>
+
+            <button
+              id="ButtonC1"
+              onclick="makeButtonActive('ButtonC1')"
+              src="public/external/button137-4x5b-200h.png"
+              alt="Button137"
+              class="choose_class-button1 pressione"
+            >
+              <p class="choose_class-text08">Class 1</p>
+            </button>
+
+            <button
+              id="ButtonC3"
+              onclick="makeButtonActive('ButtonC3')"
+              src="public/external/button140-7rth-200h.png"
+              alt="Button140"
+              class="choose_class-button2 pressione"
+            >
+              <p class="choose_class-text08">Class 3</p>
+            </button>
+
+            <button
+              id="ButtonC4"
+              onclick="makeButtonActive('ButtonC4')"
+              src="public/external/button142-i8w9-200h.png"
+              alt="Button142"
+              class="choose_class-button3 pressione"
+            >
+              <p class="choose_class-text08">Class 4</p>
+            </button>
+
+            <button
+              id="ButtonC2"
+              onclick="makeButtonActive('ButtonC2')"
+              src="public/external/button146-7vlk-200h.png"
+              alt="Button146"
+              class="choose_class-button5 pressione"
+            >
+              <p class="choose_class-text08">Class 2</p>
+            </button>
+          </div>
+
+
+          <div>
+            <button
+              onclick="showMessage()"
+              src="public/external/button162-mp7i-200h.png"
+              alt="Button162"
+              class="choose_class-button6 pressione"
+            >
+              <p class="choose_class-text14">Select</p>
+            </button>
+            <div id="message"></div>
+          </div>
+          <a
+            src="public/external/button168-05xf-200h.png"
+            alt="Button168"
+            class="choose_class-button7 pressione"
+            href="multiplayermenu"
+            ><p class="choose_class-text12">Back</p></a
+          >
+
+          <button
+            src="public/external/button170-70i-200h.png"
+            alt="Button170"
+            class="choose_class-button8 pressione"
+          >
+            <p class="choose_class-text10">Random</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

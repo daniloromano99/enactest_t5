@@ -1,0 +1,781 @@
+.choose_class-container {
+
+  width: 100%;
+
+  display: flex;
+
+  overflow: hidden;
+
+  min-height: 100vh;
+
+  align-items: center;
+
+  position: fixed;
+
+  flex-direction: column;
+
+}
+
+.choose_class-choose_class {
+
+  width: 100%;
+
+  height: 100%;
+
+  zoom: 79.2%;
+
+  display: flex;
+
+  overflow: hidden;
+
+  position: relative;
+
+  align-items: flex-start;
+
+  flex-shrink: 0;
+
+  background: url(./images/shader.png);
+
+  background-repeat:no-repeat;
+
+  background-size:cover;
+
+  background-position: center center;    
+
+  overflow-y: hidden;
+
+  margin: 0;
+
+  padding: 1000px;
+
+  background-attachment: fixed;
+
+  position: fixed;
+
+}
+
+.choose_class-shader {
+
+  top: 0px;
+
+  left: 0px;
+
+  width: 1920px;
+
+  height: 1080px;
+
+  position: absolute;
+
+}
+
+.choose_class-main {
+
+  top: 45px;
+
+  left: 637px;
+
+  width: 1248px;
+
+  height: 990px;
+
+  display: flex;
+
+  position: absolute;
+
+  align-items: flex-start;
+
+  flex-shrink: 1;
+
+}
+
+/* è il bordo piu esterno*/
+
+.choose_class-frame {
+
+  top: 0px;
+
+  left: 0px;
+
+  width: 650px;
+
+  height: 700px;
+
+  position: absolute;
+
+  box-sizing: content-box;
+
+  border-color: rgba(85, 85, 85, 1);
+
+  border-style: solid;
+
+  border-width: 3px;
+
+  border-radius: 24px;
+
+}
+
+/*.choose_class-frame1 {
+
+  top: 910px;
+
+  left: 925px;
+
+  width: 323px;
+
+  height: 80px;
+
+  position: absolute;
+
+  box-sizing: content-box;
+
+  border-color: rgb(0, 0, 0);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 24px;
+
+}*/
+
+.choose_class-button {
+
+  top: 374px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text {
+
+  top: 392px;
+
+  left: 62px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-text01 {
+
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.choose_class-text02 {
+
+  color: rgba(179, 151, 79, 1);
+
+}
+
+.choose_class-text03 {
+
+  top: 478px;
+
+  left: 63px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-text04 {
+
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.choose_class-text05 {
+
+  color: rgba(179, 151, 79, 1);
+
+}
+
+.choose_class-button1 {
+
+  top: 34px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text06 {
+
+  top: 935px;
+
+  left: 952px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-text08 {
+
+  top: 18px;
+
+  left: 15px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-button2 {
+
+  top: 204px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text10 {
+
+  top: 15px;
+
+  left: 28px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-button3 {
+
+  top: 289px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+/*.choose_class-button4 {
+
+  top: 459px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(183, 78, 78, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}*/
+
+.choose_class-button5 {
+
+  top: 119px;
+
+  left: 37px;
+
+  width: 576px;
+
+  height: 65px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text12 {
+
+  top: 15px;
+
+  left: 46px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-ellipse9 {
+
+  top: 277px;
+
+  left: 1215px;
+
+  width: 10px;
+
+  height: 10px;
+
+  position: absolute;
+
+}
+
+.choose_class-ellipse10 {
+
+  top: 979px;
+
+  left: 1824px;
+
+  width: 32px;
+
+  height: 32px;
+
+  position: absolute;
+
+  border-color: rgba(85, 85, 85, 1);
+
+  border-style: solid;
+
+  border-width: 4px;
+
+}
+
+/*.choose_class-ellipse11 {
+
+  top: 979px;
+
+  left: 1824px;
+
+  width: 32px;
+
+  height: 32px;
+
+  position: absolute;
+
+  border-style: solid;
+
+  border-width: 4px;
+
+}*/
+
+.choose_class-button6 {
+
+  top: 780px;
+
+  left: 700px;
+
+  width: 150px;
+
+  height: 60px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text14 {
+
+  top: 15px;
+
+  left: 40px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+
+
+
+.choose_class-button7 {
+
+  top: 780px;
+
+  left: 1070px;
+
+  width: 150px;
+
+  height: 60px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.pressione:hover {
+
+  background-color: #180175;
+
+  color: white;
+
+}
+
+.choose_class-text16 {
+
+  top: 795px;
+
+  left: 1119px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-button8 {
+
+  top: 780px;
+
+  left: 885px;
+
+  width: 150px;
+
+  height: 60px;
+
+  position: absolute;
+
+  border-color: rgba(55, 55, 55, 1);
+
+  border-style: solid;
+
+  border-width: 2px;
+
+  border-radius: 16px;
+
+}
+
+.choose_class-text18 {
+
+  top: 795px;
+
+  left: 916px;
+
+  color: rgba(255, 255, 255, 1);
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+.choose_class-text20 {
+
+  top: 352px;
+
+  left: 696px;
+
+  color: rgba(255, 255, 255, 1);
+
+  width: 519px;
+
+  height: auto;
+
+  position: absolute;
+
+  font-size: 24px;
+
+  font-style: Regular;
+
+  text-align: left;
+
+  font-family: ABeeZee;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+  font-stretch: normal;
+
+  text-decoration: none;
+
+}
+
+
+
+
+/*.choose_class-lowerbuttons {
+
+  top: 969px;
+
+  left: 850px;
+
+  width: 220px;
+
+  height: 60px;
+
+  display: flex;
+
+  position: absolute;
+
+  align-items: flex-start;
+
+  flex-shrink: 1;
+
+}
+
+
+
+
+.choose_class-buttonexit {
+
+  top: 250px;
+
+  left: 90px;
+
+  width: 500px;
+
+  height: 60px;
+
+  position: absolute;
+
+  box-sizing: content-box;
+
+  background: url(images/ButtonExit.png);
+
+  background-size: contain;
+
+}*/
+.button-active {  
+opacity:0.7;
+border-width: 4px;
+border-color: rgb(60, 24, 157);
+background-color: #0d023c;
+color:white;
+} 
+
+#message { display: none; }

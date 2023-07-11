@@ -1,0 +1,204 @@
+.ambientediediting-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.ambientediediting-ambientediediting {
+  width: 100%;
+  height: 100%;
+  zoom: 77.2%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background: url(./images/shader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  position: fixed;
+}
+.ambientediediting-shader {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.ambientediediting-main {
+  top: 60px;
+  left: 198px;
+  width: 1479px;
+  height: 862px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(29, 29, 29, 0.20000000298023224);
+}
+.ambientediediting-button {
+  top: 26px;
+  left: 340.2602844238281px;
+  width: 755px;
+  height: 65px;
+  position: absolute;
+  border-color: rgba(55, 55, 55, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 16px;
+}
+.ambientediediting-text {
+  top: 45px;
+  left: 398.23760986328125px;
+  color: rgba(255, 255, 255, 1);
+  width: 749px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.ambientediediting-button2 {
+  top: 835px;
+  left: 1070px;
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 16px;
+}
+.ambientediediting-text02 {
+  top: 15px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ambientediediting-button3 {
+  top: 835px;
+  left: 885px;
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 16px;
+}
+.ambientediediting-text04 {
+  top: 15px;
+  left: 43px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ambientediediting-text06 {
+  top: 15px;
+  left: 41px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ambientediediting-button4 {
+  top: 835px;
+  left: 699px;
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 16px;
+}
+.ambientediediting-text08 {
+  top: 983px;
+  left: 748px;
+  color: rgba(174, 174, 174, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: ABeeZee;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ambientediediting-text09 {
+  top: 222px;
+  left: 384px;
+  color: rgb(0, 0, 0);
+  width: 424px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Fira Code;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.ambientediediting-text10 {
+  top: 222px;
+  left: 1200px;
+  color: rgb(0, 0, 0);
+  width: 424px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Fira Code;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.pressione:hover {
+  background-color: #180175;
+  color: white;
+}
